@@ -152,7 +152,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="20dp"
-                                android:text="Optix@trooppartner.com"
+                                android:text="Optix@optix.com"
                                 android:textColor="@color/white"
                                 android:textSize="15sp" />
                         </LinearLayout>
