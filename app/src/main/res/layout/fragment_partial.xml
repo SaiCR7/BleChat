@@ -46,33 +46,41 @@
     </RelativeLayout>
 
 
-<!--    <com.facebook.shimmer.ShimmerFrameLayout-->
-<!--        android:id="@+id/shimmerLayout"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_below="@+id/relative_start"-->
-<!--        tools:ignore="MissingConstraints">-->
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_start"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/workorder_view" />
+            <include layout="@layout/shimmer_placeholder_layout" />
 
-            <include layout="@layout/workorder_view" />
+            <include layout="@layout/shimmer_placeholder_layout" />
 
-            <include layout="@layout/workorder_view" />
+            <include layout="@layout/shimmer_placeholder_layout" />
 
-            <include layout="@layout/workorder_view" />
+            <include layout="@layout/shimmer_placeholder_layout" />
 
-            <include layout="@layout/workorder_view" />
+            <include layout="@layout/shimmer_placeholder_layout" />
 
-            <include layout="@layout/workorder_view" />
+            <include layout="@layout/shimmer_placeholder_layout" />
 
             <include layout="@layout/shimmer_placeholder_layout" />
 
         </LinearLayout>
-<!--    </com.facebook.shimmer.ShimmerFrameLayout>-->
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_start"
+        android:layout_margin="10dp"
+        android:nestedScrollingEnabled="false" />
 
 </RelativeLayout>

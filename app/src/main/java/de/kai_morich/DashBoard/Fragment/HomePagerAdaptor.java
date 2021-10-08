@@ -24,7 +24,6 @@ public class HomePagerAdaptor extends FragmentStateAdapter {
                 return new InitialFragment();
             case 1:
                 return new PartialFragment();
-            case 2:
             default:
                 return new InitialFragment();
         }

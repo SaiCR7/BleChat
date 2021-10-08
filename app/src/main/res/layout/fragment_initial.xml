@@ -75,4 +75,12 @@
         </LinearLayout>
     </com.facebook.shimmer.ShimmerFrameLayout>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_start"
+        android:layout_margin="10dp"
+        android:nestedScrollingEnabled="false" />
+
 </RelativeLayout>

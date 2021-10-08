@@ -56,7 +56,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
-                        android:text="Products"
+                        android:text="WorkOrder Id"
                         android:textColor="@color/shimmer_placeholder"
                         android:textSize="@dimen/textSize_18"
                         android:textStyle="bold" />
@@ -68,7 +68,7 @@
                         android:layout_below="@+id/txt_productName"
                         android:layout_marginTop="@dimen/margin_5"
                         android:ellipsize="end"
-                        android:text="Active"
+                        android:text="Applicator Name "
                         android:textColor="@color/shimmer_placeholder"
                         android:textSize="@dimen/textSize_15" />
 
@@ -78,7 +78,7 @@
                         android:layout_below="@+id/txt_ModelName"
                         android:layout_marginTop="@dimen/margin_5"
                         android:ellipsize="end"
-                        android:text="Active"
+                        android:text="Date"
                         android:textColor="@color/shimmer_placeholder"
                         android:textSize="@dimen/textSize_15" />
 
